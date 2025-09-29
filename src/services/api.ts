@@ -1,8 +1,7 @@
 import { ApiResponse, Machine, BreakdownMaintenance, SparePart, Equipment } from '../types';
 
 const API_BASE_URL = '/api';
-const API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGVOYW1lIjoicm9vdCIsImlhdCI6MTc1ODU1ODExOCwiZXhwIjoxNzYxMTUwMTE4fQ.wcSIsNQZN5b1eL781pIhUadLebDbpUD3_fShcJ0_iEY";
-
+const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGVOYW1lIjoicm9vdCIsImlhdCI6MTc1ODU1ODExOCwiZXhwIjoxNzYxMTUwMTE4fQ.wcSIsNQZN5b1eL781pIhUadLebDbpUD3_fShcJ0_iEY';
 const getHeaders = () => ({
   'Accept': 'application/json, text/plain, */*',
   'Authorization': `Bearer ${API_KEY}`,
